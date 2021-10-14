@@ -8,4 +8,5 @@
 Bonus: Handled the Cold-start problem, by recommending top 10 animes in the data to the new user.
 
 metadata.txt -- metadata of the dataset
+
 Find the dataset in the link: https://drive.google.com/drive/folders/1g1BscQS7L985q7wLtSzMBpL0mVXxULel?usp=sharing
