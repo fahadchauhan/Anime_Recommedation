@@ -1,11 +1,11 @@
 # Anime_Recommedation
-1) Content-Based: selected features were converted into embedding using FASTTEXT, and cosine similarity to pick the top 10 similar anime.
+1) Content-Based: Selected features were converted into embeddings using FASTTEXT, and cosine similarity was used to pick the top 10 similar anime.
 
-2) Collaborative Based Filtering: Ensemble of Random Forest Regressor (RGR) and Gradient Boosted Regressor (GBR) were used to rank animes based on how users have given ratings before. evaluation metrics were Mean square error (MSE) and Mean absolute error (MAE).
+2) Collaborative Based Filtering:  Ensemble of Random Forest Regressor (RGR) and Gradient Boosted Regressor (GBR) were used to rank animes based on how users have given ratings before. The evaluation metrics were Mean square error (MSE) and Mean absolute error (MAE).
 
-3) Content + Collaborative - Hybrid: Based on the top 10 animes watched by the user, recommend top a10 anime after removing duplicates and already watched anime.
+3) Content + Collaborative - Hybrid: Based on the top 10 animes watched by the user, the model recommends 10 animes after removing duplicates, and already watched anime.
 
-Bonus: Handled the Cold-start problem, by recommending top 10 animes in the data to the new user.
+Bonus: Handled the Cold-start problem, by recommending top 10 animes in the data to a new user.
 
 metadata.txt -- metadata of the dataset
 
